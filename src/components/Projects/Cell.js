@@ -8,7 +8,7 @@ const Cell = ({ data }) => (
       <header>
         <h2><a href={data.link}>{data.title}</a></h2>
         <h4>{data.subtitle}</h4>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
+        <time className="published">{data.date === 'Present' ? data.date : dayjs(data.date).format('MMMM, YYYY')}</time>
       </header>
       <a href={data.link} className="image">
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />

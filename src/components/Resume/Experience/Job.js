@@ -33,7 +33,7 @@ const Job = ({
         {highlights.map((highlight) => (
           typeof highlight === 'string'
             ? <li key={highlight}>{highlight}</li>
-            : <li style={{ fontWeight: highlight[0] }}>{highlight[1]}</li>
+            : <li key={highlight} style={{ fontWeight: highlight[0] }}>{highlight[1]}</li>
         ))}
       </ul>
     ) : null}

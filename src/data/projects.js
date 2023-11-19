@@ -4,7 +4,7 @@ const data = [
     title: 'Memorization in Knowledge Distillation',
     subtitle: 'Cutting down memorization in ML using Knowledge Distillation',
     image: '/images/projects/kd_small.png',
-    // date: '2015-11-20',
+    date: 'Present',
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
