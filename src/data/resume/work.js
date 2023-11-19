@@ -22,24 +22,30 @@ const work = [
     I was part of System Performance team (SPT). SPT analyzes performance of new processors, finds bottlenecks, compares with current processors in market.
     As intern, I worked on creating automation pipeline to run tests, manage and analyze results. This framework reduces user intervention to almost none and allows users to parallelize multiple tasks.`,
     highlights: [
-      'Designed complete modular framework to automate storage and vizualization of performance data slashing user intervention by 95%.',
-      'Deployed a central server to host MySQL database and PHP Laravel WebUI for easy access and shareability among team members.',
-      'Implemented a Python package to integrate test automations with framework allowing backward compatibility.',
+      'Collaborated in a team of 4 to develop a comprehensive software framework used by 50 engineers to enable competitive analysis across Qualcomm and competitor SoCs, to identify performance bottlenecks in 1 click with no manual intervention.',
+      'Created a central server that hosts Flask APIs, MySQL Database, and PHP Laravel WebApp for storage and visualization.',
+      'Implemented Python package to enable minimal code integration between new framework and existing test environments.',
     ],
   },
   {
-    name: 'Wunderman Thompson Commerce',
+    name: 'Wunderman Thompson',
     position: 'Software Developer',
     url: 'https://www.wundermanthompson.com',
     startDate: '2021-06-23',
     endDate: '2022-05-23',
     summary: `WTC is a consultancy-technology company that manages various aspects of businesses including e-commerce, data analytics and advertisements.
-    I was part of the Data Science team where I worked on automated ads generation tool and business analytics tools.`,
+    I was part of the Data Science R&D team where I worked on automated ads generation system and business analytics software.`,
     highlights: [
-      'Designed and deployed image processing tool in Python3 to generate variable-sized ads by cropping raw images in shape.',
-      'Trained and fine-tuned YOLOv3 model to detect client company products and symbols to avoid them from cropping out.',
-      'Implemented Seam Carving method to extend images for fitting screen sizes with larger aspect ratios than raw image.',
-      'Improved detection accuracy, product alignment and visual quality of extension than previous tool used by client.',
+      ['bold', 'CAIP (Context-Aware Image Processing System)'],
+      'Developed image processing software in Python3 to serve variable-sized ads in real-time reducing manual work by 90%.',
+      'Trained and fine-tuned ML model to detect client company products and symbols to improve accuracy and alignment of ads.',
+      'Implemented Seam Carving method to extend images for fitting screen sizes with larger aspect ratios than raw images.',
+      'Improved detection accuracy, product alignment, and visual quality of extension than previous tool used by client.',
+      ['bold', 'Online Marketplace Analysis Software'],
+      'Built business analysis framework in Python3 to analyze online marketplace data and extract actionable business insights.',
+      'Utilized NLP models on product comments which automated suggestions for product improvements.',
+      'Built competitor sales estimation model with an R2-score of ~95% using popularity rankings and price changes as inputs.',
+      'Created scalable high throughput data engineering pipeline to scrape, preprocess, and show results for 1 million products.',
     ],
   },
   {
@@ -55,7 +61,8 @@ const work = [
     highlights: [
       'Formulated and developed tools to analyze benchmark workload for performance analysis and optimization.',
       'Developed Instruction Summary plugin using C++ to analyze first-level characterization of the workload to find CPU units stressed for unit-wise performance analysis. Created an automator in Python3 to update plugin for newer instruction sets.',
-      'Designed and implemented Working Set Size Time Series algorithm using Ballooning Method and Stack Distance Approach to estimate optimal cache size for workload. Presented white paper on plugin results analyzing SPEC-CPU-2006 benchmark.',
+      'Designed and implemented Working Set Size Time Series algorithm combining Ballooning Method and Stack Distance Approach to estimate optimal cache size for minimizing cache misses for a workload.',
+      'Presented a white paper on plugin results analyzing GeekBench, AnTuTu, and SPEC-CPU-2006 benchmarks.',
     ],
   },
 ];

@@ -31,7 +31,9 @@ const Job = ({
     {highlights ? (
       <ul className="points">
         {highlights.map((highlight) => (
-          <li key={highlight}>{highlight}</li>
+          typeof highlight === 'string'
+            ? <li key={highlight}>{highlight}</li>
+            : <li style={{ fontWeight: highlight[0] }}>{highlight[1]}</li>
         ))}
       </ul>
     ) : null}
@@ -46,7 +48,12 @@ Job.propTypes = {
     startDate: PropTypes.string.isRequired,
     endDate: PropTypes.string,
     summary: PropTypes.string,
-    highlights: PropTypes.arrayOf(PropTypes.string.isRequired),
+    highlights: PropTypes.arrayOf(
+      PropTypes.oneOfType([
+        PropTypes.string.isRequired,
+        PropTypes.arrayOf(PropTypes.string.isRequired),
+      ]),
+    ),
   }).isRequired,
 };
 

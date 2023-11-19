@@ -110,6 +110,11 @@ const skills = [
     category: ['Languages'],
   },
   {
+    title: 'Java',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
     title: 'Data Visualization',
     competency: 4,
     category: ['Data Science', 'Javascript'],
@@ -117,17 +122,17 @@ const skills = [
   {
     title: 'Pandas',
     competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Engineering', 'ML Engineering', 'Python', 'Data Science'],
   },
   {
     title: 'Matplotlib',
     competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Engineering', 'ML Engineering', 'Python', 'Data Science'],
   },
   {
     title: 'Scikit-Learn',
     competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Engineering', 'ML Engineering', 'Python', 'Data Science'],
   },
   {
     title: 'Android Studio',
