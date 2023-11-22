@@ -5,11 +5,11 @@ const data = [
     subtitle: 'Cutting down memorization in ML using Knowledge Distillation',
     image: '/images/projects/kd_small.png',
     date: 'Present',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    // desc:
+    //   'Built for a social impact hackathon. '
+    //   + 'NearestDollar connected to your bank accounts, credit cards, '
+    //   + 'or debit cards and rounded up your purchases to donate the balance to '
+    //   + 'the charity of your choice.',
   },
   {
     title: 'Knowledge Distillation for Small Datasets',
@@ -17,10 +17,10 @@ const data = [
     link: 'https://github.com/jagtapraj123/Knowledge_Distillation-Face_Recognition/blob/main/Report/DataMining_Project_Report.pdf',
     image: '/images/projects/face-recognition-models.png',
     date: '2022-12-15',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    // desc:
+    //   'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
+    //   + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
+    //   + 'and nutrient deficiencies at an affordable price for the developing world.',
   },
   {
     title: 'Meal Check',
@@ -28,10 +28,10 @@ const data = [
     link: 'https://github.com/jagtapraj123/MealCheck/blob/main/Report/MealCheck_Final_Project_Report.pdf',
     image: '/images/projects/MealCheck.png',
     date: '2022-12-15',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    // desc:
+    //   'Launched a potato battery powered weather balloon with two cameras '
+    //   + 'and gps transponder. Resulting photos were published in a coffee table book. '
+    //   + 'You can email me for a copy.',
   },
   {
     title: 'YouTube Misinformation Detection & Dataset',
@@ -39,10 +39,10 @@ const data = [
     link: 'https://github.com/jagtapraj123/YT-misinfo-framework',
     image: '/images/projects/YT_pipeline.jpg',
     date: '2022-04-30',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    // desc:
+    //   'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
+    //   + 'Over 60,000 cats were classified before server bills made the project too expensive '
+    //   + 'to continue hosting.',
   },
   {
     title: 'Word Note - Smart e-Flashcards',
